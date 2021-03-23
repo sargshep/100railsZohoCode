@@ -1,0 +1,658 @@
+{
+  "fields": [
+    {
+      "id": "quote_number",
+      "display_name": "quote_number",
+      "type": "text"
+    },
+    {
+      "id": "revision_number",
+      "display_name": "revision_number",
+      "type": "text"
+    },
+    {
+      "id": "job_reference",
+      "display_name": "job_reference",
+      "type": "text"
+    },
+    {
+      "id": "job_stage",
+      "display_name": "job_stage",
+      "type": "text"
+    },
+    {
+      "id": "followup_status",
+      "display_name": "followup_status",
+      "type": "text"
+    },
+    {
+      "id": "work_site_address",
+      "display_name": "work_site_address",
+      "type": "multiline"
+    },
+    {
+      "id": "work_site_address_oneline",
+      "display_name": "work_site_address_oneline",
+      "type": "text"
+    },
+    {
+      "id": "work_site_address_oneline_nocountry",
+      "display_name": "work_site_address_oneline_nocountry",
+      "type": "text"
+    },
+    {
+      "id": "site_address",
+      "display_name": "site_address",
+      "type": "text"
+    },
+    {
+      "id": "quote_comments",
+      "display_name": "quote_comments",
+      "type": "multiline"
+    },
+    {
+      "id": "quote_scope",
+      "display_name": "quote_scope",
+      "type": "richtext"
+    },
+    {
+      "id": "enquiry_date",
+      "display_name": "enquiry_date",
+      "type": "date"
+    },
+    {
+      "id": "start_date",
+      "display_name": "start_date",
+      "type": "date"
+    },
+    {
+      "id": "finish_date",
+      "display_name": "finish_date",
+      "type": "date"
+    },
+    {
+      "id": "quote_date",
+      "display_name": "quote_date",
+      "type": "date"
+    },
+    {
+      "id": "revision_date",
+      "display_name": "revision_date",
+      "type": "date"
+    },
+    {
+      "id": "client_purchase_order",
+      "display_name": "client_purchase_order",
+      "type": "text"
+    },
+    {
+      "id": "quote_text_zw",
+      "display_name": "quote_text_zw",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "level_0",
+          "display_name": "level_0",
+          "type": "number"
+        },
+        {
+          "id": "title_0",
+          "display_name": "title_0",
+          "type": "text"
+        },
+        {
+          "id": "items_0",
+          "display_name": "items_0",
+          "type": "related_list",
+          "fields": [
+            {
+              "id": "level_1",
+              "display_name": "level_1",
+              "type": "number"
+            },
+            {
+              "id": "title_1",
+              "display_name": "title_1",
+              "type": "text"
+            },
+            {
+              "id": "items_1",
+              "display_name": "items_1",
+              "type": "related_list",
+              "fields": [
+                {
+                  "id": "text_1",
+                  "display_name": "text_1",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duty_loading",
+      "display_name": "duty_loading",
+      "type": "text"
+    },
+    {
+      "id": "valid_date",
+      "display_name": "valid_date",
+      "type": "date"
+    },
+    {
+      "id": "win_date",
+      "display_name": "win_date",
+      "type": "date"
+    },
+    {
+      "id": "lost_date",
+      "display_name": "lost_date",
+      "type": "date"
+    },
+    {
+      "id": "lost_reason",
+      "display_name": "lost_reason",
+      "type": "text"
+    },
+    {
+      "id": "lost_comment",
+      "display_name": "lost_comment",
+      "type": "text"
+    },
+    {
+      "id": "client",
+      "display_name": "client",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "company_name",
+          "display_name": "company_name",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "display_name": "sstatus",
+          "type": "text"
+        },
+        {
+          "id": "full_name",
+          "display_name": "full_name",
+          "type": "text"
+        },
+        {
+          "id": "first_name",
+          "display_name": "first_name",
+          "type": "text"
+        },
+        {
+          "id": "last_name",
+          "display_name": "last_name",
+          "type": "text"
+        },
+        {
+          "id": "postal_address",
+          "display_name": "postal_address",
+          "type": "text"
+        },
+        {
+          "id": "phone",
+          "display_name": "phone",
+          "type": "phone"
+        },
+        {
+          "id": "mobile",
+          "display_name": "mobile",
+          "type": "phone"
+        },
+        {
+          "id": "email",
+          "display_name": "email",
+          "type": "email"
+        },
+        {
+          "id": "website",
+          "display_name": "website",
+          "type": "link"
+        },
+        {
+          "id": "company_logo",
+          "display_name": "company_logo",
+          "type": "image"
+        },
+        {
+          "id": "due_date_terms",
+          "display_name": "due_date_terms",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "quoting_contacts",
+      "display_name": "quoting_contacts",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "full_name",
+          "display_name": "full_name",
+          "type": "text"
+        },
+        {
+          "id": "mobile_phone",
+          "display_name": "mobile_phone",
+          "type": "phone"
+        },
+        {
+          "id": "email",
+          "display_name": "email",
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "id": "site_contacts",
+      "display_name": "site_contacts",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "full_name",
+          "display_name": "full_name",
+          "type": "text"
+        },
+        {
+          "id": "first_name",
+          "display_name": "first_name",
+          "type": "text"
+        },
+        {
+          "id": "last_name",
+          "display_name": "last_name",
+          "type": "text"
+        },
+        {
+          "id": "mobile_phone",
+          "display_name": "mobile_phone",
+          "type": "phone"
+        },
+        {
+          "id": "email",
+          "display_name": "email",
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "id": "quote_manager",
+      "display_name": "quote_manager",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "full_name",
+          "display_name": "full_name",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "display_name": "email",
+          "type": "email"
+        },
+        {
+          "id": "phone",
+          "display_name": "phone",
+          "type": "phone"
+        },
+        {
+          "id": "title",
+          "display_name": "title",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "phases_count",
+      "display_name": "phases_count",
+      "type": "number"
+    },
+    {
+      "id": "quote_total",
+      "display_name": "quote_total",
+      "type": "number"
+    },
+    {
+      "id": "quote_total_currency00",
+      "display_name": "quote_total_currency00",
+      "type": "text"
+    },
+    {
+      "id": "quote_tax",
+      "display_name": "quote_tax",
+      "type": "number"
+    },
+    {
+      "id": "quote_tax_currency00",
+      "display_name": "quote_tax_currency00",
+      "type": "text"
+    },
+    {
+      "id": "quote_total_with_tax",
+      "display_name": "quote_total_with_tax",
+      "type": "number"
+    },
+    {
+      "id": "quote_total_with_tax_currency00",
+      "display_name": "quote_total_with_tax_currency00",
+      "type": "text"
+    },
+    {
+      "id": "quote_hire_day_total",
+      "display_name": "quote_hire_day_total",
+      "type": "number"
+    },
+    {
+      "id": "quote_hire_day_total_currency00",
+      "display_name": "quote_hire_day_total_currency00",
+      "type": "text"
+    },
+    {
+      "id": "quote_hire_week_total",
+      "display_name": "quote_hire_week_total",
+      "type": "number"
+    },
+    {
+      "id": "quote_hire_week_total_currency00",
+      "display_name": "quote_hire_week_total_currency00",
+      "type": "text"
+    },
+    {
+      "id": "special_terms",
+      "display_name": "special_terms",
+      "type": "list"
+    },
+    {
+      "id": "image_insert",
+      "display_name": "image_insert",
+      "type": "image"
+    },
+    {
+      "id": "project_specifications",
+      "display_name": "project_specifications",
+      "type": "list"
+    },
+    {
+      "id": "quote_category_subtotals",
+      "display_name": "quote_category_subtotals",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "labour",
+          "display_name": "labour",
+          "type": "number"
+        },
+        {
+          "id": "hire_week",
+          "display_name": "hire_week",
+          "type": "number"
+        },
+        {
+          "id": "hire_month",
+          "display_name": "hire_month",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "phases",
+      "display_name": "phases",
+      "type": "related_list",
+      "fields": [
+        {
+          "id": "phase_number",
+          "display_name": "phase_number",
+          "type": "text"
+        },
+        {
+          "id": "phase_name",
+          "display_name": "phase_name",
+          "type": "text"
+        },
+        {
+          "id": "phase_description",
+          "display_name": "phase_description",
+          "type": "text"
+        },
+        {
+          "id": "quote_lines",
+          "display_name": "quote_lines",
+          "type": "related_list",
+          "fields": [
+            {
+              "id": "description",
+              "display_name": "description",
+              "type": "text"
+            },
+            {
+              "id": "quantity",
+              "display_name": "quantity",
+              "type": "number"
+            },
+            {
+              "id": "price_unit",
+              "display_name": "price_unit",
+              "type": "number"
+            },
+            {
+              "id": "price_unit_currency00",
+              "display_name": "price_unit_currency00",
+              "type": "text"
+            },
+            {
+              "id": "price_total",
+              "display_name": "price_total",
+              "type": "number"
+            },
+            {
+              "id": "price_total_currency00",
+              "display_name": "price_total_currency00",
+              "type": "text"
+            },
+            {
+              "id": "product_code",
+              "display_name": "product_code",
+              "type": "text"
+            },
+            {
+              "id": "product_name",
+              "display_name": "product_name",
+              "type": "text"
+            },
+            {
+              "id": "product_description",
+              "display_name": "product_description",
+              "type": "text"
+            },
+            {
+              "id": "product_type",
+              "display_name": "product_type",
+              "type": "text"
+            },
+            {
+              "id": "unit_type",
+              "display_name": "unit_type",
+              "type": "text"
+            },
+            {
+              "id": "unit_price",
+              "display_name": "unit_price",
+              "type": "number"
+            },
+            {
+              "id": "unit_price_currency00",
+              "display_name": "unit_price_currency00",
+              "type": "text"
+            },
+            {
+              "id": "product_category",
+              "display_name": "product_category",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "quote_number": "PT10001",
+      "revision_number": "",
+      "job_reference": "62 Muritai Crescent,Havelock North",
+      "job_stage": "60 - IN - JOB In Progress",
+      "followup_status": "",
+      "work_site_address": "62 Muritai Crescent\nHavelock North 4130\nNew Zealand",
+      "work_site_address_oneline": "62 Muritai Crescent, Havelock North 4130, New Zealand",
+      "work_site_address_oneline_nocountry": "62 Muritai Crescent, Havelock North 4130",
+      "site_address": "",
+      "quote_comments": "",
+      "quote_scope": "",
+      "enquiry_date": "02-02-2021",
+      "start_date": "02-02-2021",
+      "finish_date": "02-03-2021",
+      "quote_date": "02-02-2021",
+      "revision_date": "",
+      "client_purchase_order": "",
+      "duty_loading": "Not Assessed Duty loading",
+      "valid_date": "04-03-2021",
+      "win_date": "02-02-2021",
+      "lost_date": "",
+      "lost_reason": "",
+      "lost_comment": "",
+      "client": [
+        {
+          "status": "2. Active Client",
+          "company_name": "TEST COMPANY",
+          "full_name": "Rochelle",
+          "first_name": "",
+          "last_name": "",
+          "email": "support@100rails.com",
+          "phone": "",
+          "mobile": "",
+          "website": "",
+          "postal_address": "",
+          "due_date_terms": "20th Following",
+          "company_logo": ""
+        }
+      ],
+      "quoting_contacts": [
+        {
+          "full_name": "Rochelle",
+          "email": "support@100rails.com",
+          "mobile_phone": ""
+        }
+      ],
+      "site_contacts": [],
+      "quote_manager": [
+        { "full_name": "", "email": "", "phone": "", "title": "" }
+      ],
+      "photos": [],
+      "documents": [],
+      "phases": [
+        {
+          "phase_number": "1",
+          "phase_name": "Fixed Scaffold",
+          "phase_description": "",
+          "start_date": "02-02-2021",
+          "finish_date": "",
+          "hours": "",
+          "hire_weeks": "",
+          "sqm": "",
+          "quote_lines": [
+            {
+              "description": "Build/Dismantle",
+              "quantity": 1.0,
+              "price_unit": 900.0,
+              "price_unit_currency00": "$900.00",
+              "price_total": 900.0,
+              "price_total_currency00": "$900.00",
+              "product_code": "BD",
+              "product_name": "Build/Dismantle",
+              "product_description": "Build/Dismantle",
+              "product_type": "ONE - Oneoff Charge",
+              "unit_type": "LM(s)",
+              "unit_price": 0.0,
+              "unit_price_ccurrency00": "$0.00",
+              "product_category": "labour"
+            },
+            {
+              "description": "Hireage per week including safety checks",
+              "quantity": 1.0,
+              "price_unit": 90.0,
+              "price_unit_currency00": "$90.00",
+              "price_total": 90.0,
+              "price_total_currency00": "$90.00",
+              "product_code": "HIRE",
+              "product_name": "Hireage per week including safety checks",
+              "product_description": "Hireage per week including safety checks",
+              "product_type": "WKY - Weekly Rate",
+              "unit_type": "Each",
+              "unit_price": 0.0,
+              "unit_price_ccurrency00": "$0.00",
+              "product_category": "hire_week"
+            },
+            {
+              "description": "Delivery",
+              "quantity": 1.0,
+              "price_unit": 60.0,
+              "price_unit_currency00": "$60.00",
+              "price_total": 60.0,
+              "price_total_currency00": "$60.00",
+              "product_code": "DEL",
+              "product_name": "Delivery",
+              "product_description": "Delivery",
+              "product_type": "ONE - Oneoff Charge",
+              "unit_type": "Each",
+              "unit_price": 0.0,
+              "unit_price_ccurrency00": "$0.00",
+              "product_category": "labour"
+            },
+            {
+              "description": "Collection",
+              "quantity": 1.0,
+              "price_unit": 60.0,
+              "price_unit_currency00": "$60.00",
+              "price_total": 60.0,
+              "price_total_currency00": "$60.00",
+              "product_code": "COL",
+              "product_name": "Collection",
+              "product_description": "Collection",
+              "product_type": "ONE - Oneoff Charge",
+              "unit_type": "Each",
+              "unit_price": 0.0,
+              "unit_price_ccurrency00": "$0.00",
+              "product_category": "labour"
+            }
+          ],
+          "product_type_subtotals": { "ONE": 1020.0, "WKY": 90.0 },
+          "product_category_subtotals": { "labour": 1020.0, "hire_week": 90.0 },
+          "phase_total": 1020.0,
+          "phase_total_currency00": "$1,020.00"
+        }
+      ],
+      "phases_count": 1,
+      "quote_total": 1020.0,
+      "quote_total_currency00": "$1,020.00",
+      "quote_tax": 153.0,
+      "quote_tax_currency00": "$153.00",
+      "quote_total_with_tax": 1173.0,
+      "quote_total_with_tax_currency00": "$1,173.00",
+      "quote_hire_day_total": 0.0,
+      "quote_hire_day_total_currency00": "$0.00",
+      "quote_hire_week_total": 90.0,
+      "quote_hire_week_total_currency00": "$90.00",
+      "quote_category_subtotals": { "labour": 1020.0, "hire_week": 90.0 },
+      "special_terms": [],
+      "image_insert": "",
+      "quote_text_zw": [],
+      "project_specifications_zw": []
+    }
+  ]
+}
